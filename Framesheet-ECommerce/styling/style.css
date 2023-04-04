@@ -1,0 +1,50 @@
+@font-face {
+    font-family: airbnb-black;
+    src: url(src/font/AirbnbCerealBlack.woff);
+}
+@font-face {
+    font-family: airbnb-bold;
+    src: url(src/font/AirbnbCerealBold.woff);
+}
+@font-face {
+    font-family: airbnb-book;
+    src: url(src/font/AirbnbCerealBook.woff);
+}
+@font-face {
+    font-family: airbnb-light;
+    src: url(src/font/AirbnbCerealLight.woff);
+}
+@font-face {
+    font-family: airbnb-medium;
+    src: url(src/font/AirbnbCerealMedium.woff);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+#kiri {
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#atas {
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#tengah {
+    margin-left: 220px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+

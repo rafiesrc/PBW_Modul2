@@ -1,0 +1,74 @@
+@font-face {
+    font-family: airbnb-black;
+    src: url(src/font/AirbnbCerealBlack.woff);
+}
+@font-face {
+    font-family: airbnb-bold;
+    src: url(src/font/AirbnbCerealBold.woff);
+}
+@font-face {
+    font-family: airbnb-book;
+    src: url(src/font/AirbnbCerealBook.woff);
+}
+@font-face {
+    font-family: airbnb-light;
+    src: url(src/font/AirbnbCerealLight.woff);
+}
+@font-face {
+    font-family: airbnb-medium;
+    src: url(src/font/AirbnbCerealMedium.woff);
+}
+
+body{
+    width: 98vw;
+    margin: auto;
+  }
+  
+  nav {
+    justify-content: space-between;
+      background-color: #ffffff;
+      height: 72px;
+      display: flex;
+      padding-top: 10px;
+      box-sizing: border-box;
+      border-bottom: solid 1px #eee;
+    }
+    
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100%;
+    }
+    
+    li {
+      margin-right: 20px;
+      position: relative;
+    }
+    
+    a {
+    color: #000000;
+    text-decoration: none;
+    padding: 16px 10px;
+    display: block;
+    }
+    
+    li:hover {
+      border-bottom: solid 2px #DE6636;
+    }
+
+    .icon-nav img{
+        height: 26px;
+    }
+
+input[type=search]{
+    height: 36px;
+    width: 300px;
+    border-radius: 900px;
+    border: solid 1px #737373;
+    padding-left: 16px;
+    font-size: 14px;
+}

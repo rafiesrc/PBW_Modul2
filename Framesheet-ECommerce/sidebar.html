@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../styling/sidebar.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Filter</h2>
+        <form>
+          <div class="form-group">
+            <label style="margin-bottom: 10px;">Category</label>
+            <select>
+              <option selected disabled>Select a category</option>
+              <option>Hoodie</option>
+              <option>Jacket</option>
+              <option>Tshirt</option>
+              <option>All Category<option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Condition</label>
+            <div>
+              <label><input type="checkbox">New</label>
+              <label><input type="checkbox">Used</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Rating</label>
+            <div>
+              <label><input type="radio">⭐️ 4 and up</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Courir</label>
+            <div>
+              <label><input type="checkbox">FedEx</label>
+              <label><input type="checkbox">Singapore Post</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Brand</label>
+            <div>
+              <label><input type="radio" name="brand" value="sony">Nike</label>
+              <label><input type="radio" name="brand" value="samsung">New Balance</label>
+              <label><input type="radio" name="brand" value="lg">Adidas</label>
+              <label><input type="radio" name="brand" value="lg">Diadora</label>
+            </div>
+          </div>
+          <button type="submit">Apply Filters</button>
+        </form>
+      </div>
+</body>
+</html>
